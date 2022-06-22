@@ -1,0 +1,43 @@
+.selectInterface {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectWraper {
+  height: 100px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  z-index: 2;
+}
+
+.selectFrame {
+  background-color:bisque;
+  height: 30px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  z-index: 3;
+}
+.selectFrame:hover{
+  background-color: aqua;
+  transform: scale(1.1);
+}
+
+.textDecor {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
